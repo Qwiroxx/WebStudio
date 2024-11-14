@@ -5,6 +5,7 @@
     --Main-Gray: #2F303A;
     --Light-Gray: #757575;
     --Footer-Info: #FFFFFF;
+    --Portfolio-button: #F5F4FA;
 }
 .Web {
     color: var(--Main-Cyan); text-decoration: none; font-size: 25px;
@@ -12,14 +13,22 @@
 .Studio{color: var(--Studio-Black); text-decoration: none; font-size: 25px;} 
 /* Трохи підглянув в чаті gpt як прибрати лінію під посиланням. Надіюсь це не дуже страшно */
 li>a{text-decoration: none;}
-#studio-black{color: var(--Main-Cyan);}
-#mail-cyan{color: var(--Main-Cyan);}
+#studio-main{color: var(--Main-Cyan);}
+#studio-not-main{color: var(--Studio-Black);}
+#studio-not-main:hover{color: var(--Main-Cyan);}
+#mail-cyan:hover{color: var(--Main-Cyan);}
 .Nav-Gray{color:var(--Nav-Gray);}
 #Tel{color: var(--Light-Gray);}
-button{background-color: var(--Main-Cyan); color: white; border: none;}
+#Order-Button{background-color: var(--Main-Cyan); color: white; border: none;}
 .Bg-Gray{background: var(--Main-Gray);}
 .White-text{color: white;}
 footer>a{font-size: 25px; text-decoration: none;}
 #OurTeam-bg{background-color: #F5F4FA;}
-.Team-job{color: var(--Light-Gray); opacity: 60%;}
+.Light-gray{color: var(--Light-Gray); opacity: 60%;}
 .Footer-info{color: var(--Footer-Info); opacity: 60%;}
+#portfolio:hover{color: var(--Main-Cyan);}
+#portfolio-main{color: var(--Main-Cyan);}
+.Portfolio-button{background-color: var(--Portfolio-button); border: none;}
+.Portfolio-button:hover{background-color: var(--Main-Cyan); color: #FFFFFF;}
+#Contact:hover{color: var(--Main-Cyan);}
+#mail-footer:hover{color: var(--Main-Cyan);}
