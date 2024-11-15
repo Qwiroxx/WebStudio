@@ -5,29 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"  rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <a href="/index.html" class="Studio"><span class="Web">Web</span>Studio</a>
+        <a href="/index.html" class="Studio" id="WebStudio"><span class="Web">Web</span>Studio</a>
         <nav>
-            <ul>
+            <ul class="horizontal-list">
                 <li><a href="/index.html" id="studio-main">Студія</a></li>
                 <li><a href="/portfolio.html" class="Nav-Gray" id="portfolio">Портфоліо</a></li>
                 <li><a href="#" class="Nav-Gray" id="Contact">Контакти</a></li>
             </ul>
         </nav>
-            <ul>
-                <li><p id="mail-cyan">info@devstudio.com</p></li>
+            <ul id="header-info">
+                <li><a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=info@devstudio.com" id="mail-cyan" target="_blank">info@devstudio.com</a></li>
                 <li id="Tel">+38 096 111 11 11</li>
             </ul>
         </header>
         <main>
             <section class="Bg-Gray">
-                <h1 class="White-text">Ефективні рішення для вашого бізнесу</h1>
+                <h1 class="White-text" id="effective-decision">Ефективні рішення для <p class="White-text">вашого бізнесу</p></h1>
                 <button id="Order-Button">Замовити послуги</button>
              </section>
              <section>
-                <ul>
+                <ul id="advantages">
                     <li>
                     <h2>Увага до деталей</h2>
                     <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
@@ -47,8 +49,8 @@
                 </ul>
             </section>
             <section>
-                <h2>Чим ми займаємося</h2>
-                <ul>
+                <h2 id="what-we-do">Чим ми займаємося</h2>
+                <ul id="horizontal-img">
                     <li><img src="./img/texting.png" alt="texting" width="300"></li>
                     <li><img src="./img/phone.png" alt="phone" width="300"></li>
                     <li><img src="./img/colors.png" alt="colors" width="300"></li>
@@ -56,7 +58,7 @@
             </section>
             <section id="OurTeam-bg">
                 <h2>Наша команда</h2>
-                <ul>
+                <ul id="Our-Team">
                     <li>
                         <img src="./img/Ігор.jpg" alt="Igor" width="300">
                         <h5>Ігор Дем'яненко</h5>
@@ -82,8 +84,8 @@
         </main>
         <footer class="Bg-Gray">
             <a href="/index.html" class="White-text"><span class="Web">Web</span>Studio</a>
-            <p class="White-text">м. Київ, пр-т Лесі Українки, 26</p>
-            <p class="Footer-info" id="mail-footer">info@devstudio.com</p>
+            <p><a href="https://maps.app.goo.gl/irruYsHPfZbcuNZD8" class="White-text" id="adress" target="_blank">м. Київ, пр-т Лесі Українки, 26</a></p>
+            <p id="mail-footer">info@devstudio.com</p>
             <p class="Footer-info">+38 096 111 11 11</p>
         </footer>
     </body>
