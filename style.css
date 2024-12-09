@@ -187,6 +187,10 @@ nav
     cursor: pointer;
 }
 /* Footer */
+#footer
+{
+    padding-bottom: 1px;
+}
 footer>a
 {
     font-size: 25px; 
