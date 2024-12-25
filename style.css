@@ -21,7 +21,8 @@ ul
 }  
 header
 {
-    display: flex; justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 section 
 {
@@ -29,20 +30,16 @@ section
     flex-direction: column;
     align-items: center;
 }
-.list
+.list-header
 { 
     display: flex
 }
-.img
+.home-img
 {
     margin: 11px;
 }
-.nav
-{
-    margin-right: 25px;
-}
 /* Header */
-#WebStudio
+.webstudio
 {
     margin-left: 100px; 
     margin-top: 10px;
@@ -52,17 +49,17 @@ nav
 {
     font-family: Roboto;
 }
-#header-info
+.header-info
 {
     display: flex; 
     margin-right: 100px;
     font-family: Roboto;
 }
-#header-info li
+.header-info li
 {
     margin-left: 25px;
 }
-#mail-cyan
+.header-mail
 {
     margin-top: -2px;
 }
@@ -77,39 +74,38 @@ nav
     color: var(--Studio-Black); 
     font-size: 25px;
 } 
-#studio-main
-{
-    color: var(--Main-Cyan);
-}
-#mail-cyan
+.header-mail
 {
     color: var(--Light-Gray);
 }
-#mail-cyan:hover
+.header-mail:hover
 {
     color: var(--Main-Cyan); transition: 0.2s;
 }
 .nav
 {
     color: var(--Nav-Gray);
+    margin-left: 50px;
+    color:var(--Nav-Gray); transition: 0.2s;  
 }
-.nav
-{
-    color:var(--Nav-Gray); transition: 0.2s;
-}
+
 .nav:hover
 {
     color: var(--Main-Cyan);
 }
-#Tel
+.tel
 {
     color: var(--Light-Gray);
 }
-#portfolio-main
+#nav-main
 {
     color: var(--Main-Cyan);
 }
 /* Body */
+.list-we-do
+{
+    display: flex;
+}
 .project-list
 {
     margin: 11px;
@@ -126,7 +122,7 @@ nav
 {
      margin-right: 25px; margin-top: 5px;
 }
-#Order-Button
+.order-Button
 {
     background-color: var(--Main-Cyan); 
     color: white; 
@@ -135,26 +131,23 @@ nav
     border-radius: 5px; 
     margin-bottom: 150px;
     font-family: Roboto;
+    margin-left: 35px;
 }
-.Bg-Gray
+.section-decision
 {
     background: var(--Main-Gray);
 }
-#effective-decision
+.effective-decision
 {
     margin-top: 125px;
     font-family: Roboto;
 }
-.Bg-Gray>button
-{
-    margin-top: 10px;
-}
-#effective-decision>p
+.your-bussines
 {
     margin:auto; 
-    margin-left: 50px;
+    margin-left: 45px;
 }
-#advantages
+.advantages
 {
     display: flex;
 }
@@ -162,14 +155,35 @@ nav
 {
     color: white;
 }
-#OurTeam-bg
+.ourTeam-bg
 {
     background-color: #F5F4FA;
 }
-.main-info
+.our-team
+{
+    margin-left: 550px;
+}
+.list-team
+{
+    display: flex;
+}
+.portfolio-img-list
+{
+    display: flex;
+}
+.team-info
 {
     color: var(--Light-Gray); 
     opacity: 60%;
+}
+.project-info
+{
+    color: var(--Light-Gray); 
+    opacity: 60%;
+}
+.team-item
+{
+    margin: 11px;
 }
 .portfolio-button
 {
@@ -187,14 +201,10 @@ nav
     cursor: pointer;
 }
 /* Footer */
-#footer
+.footer
 {
+    background-color: var(--Main-Gray);
     padding-bottom: 1px;
-}
-footer>a
-{
-    font-size: 25px; 
-    text-decoration: none;
 }
 .Footer-info
 {
@@ -215,7 +225,7 @@ footer>a
 {
     text-decoration: none;
 }
-#WebStudio-footer
+.webstudio-footer
 {
     font-family: Raleway;
 }
