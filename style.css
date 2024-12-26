@@ -122,7 +122,7 @@ nav
 {
      margin-right: 25px; margin-top: 5px;
 }
-.order-Button
+.order-button
 {
     background-color: var(--Main-Cyan); 
     color: white; 
@@ -131,7 +131,7 @@ nav
     border-radius: 5px; 
     margin-bottom: 150px;
     font-family: Roboto;
-    margin-left: 35px;
+    margin-left: 40px;
 }
 .section-decision
 {
@@ -199,6 +199,10 @@ nav
     color: #FFFFFF;
     transition: 0.2s; 
     cursor: pointer;
+}
+.we-do
+{
+    margin-left: 360px;
 }
 /* Footer */
 .footer
