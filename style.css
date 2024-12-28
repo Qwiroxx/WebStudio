@@ -17,57 +17,50 @@ a
 }
 ul
 {
-    list-style: none; padding: 0%;
+    list-style: none;
+     padding: 0;
 }  
-header
-{
-    display: flex;
-    justify-content: space-between;
-}
-section 
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.list-header
-{ 
-    display: flex
-}
 .home-img
 {
     margin: 11px;
 }
 /* Header */
-.webstudio
+.header
 {
-    margin-left: 100px; 
-    margin-top: 10px;
-    font-family: Raleway;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 150px;
+    margin-right: 40px;
+    padding: 1px;
 }
-nav
+.nav-list
 {
-    font-family: Roboto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
 }
 .header-info
 {
     display: flex; 
-    margin-right: 100px;
     font-family: Roboto;
+    gap: 25px;
+    align-items: center;
+}
+.webstudio
+{
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: bold;
 }
 .header-info li
 {
     margin-left: 25px;
 }
-.header-mail
-{
-    margin-top: -2px;
-}
 .web 
 {
     color: var(--Main-Cyan); 
     text-decoration: none; 
-    font-size: 25px;
 }
 .studio
 {
@@ -87,6 +80,8 @@ nav
     color: var(--Nav-Gray);
     margin-left: 50px;
     color:var(--Nav-Gray); transition: 0.2s;  
+    font-family: Roboto;
+    margin-left: 0;
 }
 
 .nav:hover
@@ -97,18 +92,24 @@ nav
 {
     color: var(--Light-Gray);
 }
-#nav-main
-{
-    color: var(--Main-Cyan);
-}
 /* Body */
 .list-we-do
 {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
 .project-list
 {
-    margin: 11px;
+    align-items: center;
+    justify-content: center;
+}
+.project-list-item
+{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
 }
 #portfolio-button
 {
@@ -122,64 +123,106 @@ nav
 {
      margin-right: 25px; margin-top: 5px;
 }
+.section-decision
+{
+    background: var(--Main-Gray);
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+}
+.effective-decision
+{
+    font-family: Roboto;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 45px;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 .order-button
 {
     background-color: var(--Main-Cyan); 
     color: white; 
     border: none; 
     padding: 10px 20px; 
-    border-radius: 5px; 
-    margin-bottom: 150px;
+    border-radius: 4px; 
     font-family: Roboto;
-    margin-left: 40px;
+    margin: 0 auto;
+    display: block;
+    transition: 0.3s;
 }
-.section-decision
+.order-button:hover
 {
-    background: var(--Main-Gray);
-}
-.effective-decision
-{
-    margin-top: 125px;
-    font-family: Roboto;
-}
-.your-bussines
-{
-    margin:auto; 
-    margin-left: 45px;
+    background-color: #188CE8;
 }
 .advantages
 {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    /* text-align: center; */
+}
+.advantages-name
+{
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--Nav-Gray);
+}
+.advantages-item
+{
+    font-family: Roboto;
+    font-size: 14px;
+    color: var(--Light-Gray);
 }
 .text-inverse
 {
     color: white;
 }
-.ourTeam-bg
+.our-team-section
 {
     background-color: #F5F4FA;
 }
 .our-team
 {
-    margin-left: 550px;
+    text-align: center;
+    font-family: Roboto;
 }
 .list-team
 {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
 .portfolio-img-list
 {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
 .team-info
 {
     color: var(--Light-Gray); 
     opacity: 60%;
 }
+.project-li
+{
+    border: solid;
+    border-color: #EEEEEE;
+    border-width: 1px;
+    margin-bottom: 30px;
+}
 .project-info
 {
     color: var(--Light-Gray); 
-    opacity: 60%;
+    font-family: Roboto;
+    font-size: 16px;
 }
 .team-item
 {
@@ -202,13 +245,15 @@ nav
 }
 .we-do
 {
-    margin-left: 360px;
+    text-align: center;
+    font-family: Roboto;
 }
 /* Footer */
 .footer
 {
     background-color: var(--Main-Gray);
-    padding-bottom: 1px;
+    padding-bottom: 30px;
+    padding-top: 35px;
 }
 .Footer-info
 {
@@ -232,10 +277,12 @@ nav
 .webstudio-footer
 {
     font-family: Raleway;
+    font-size: 24px;
+    font-weight: bold;
 }
 .container
 {
-    max-width: 1700px;
+    max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
 }
