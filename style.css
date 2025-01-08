@@ -32,7 +32,7 @@ ul
     align-items: center;
     gap: 150px;
     margin-right: 40px;
-    padding: 1px;
+    padding: 10px;
 }
 .nav-list
 {
@@ -120,10 +120,14 @@ ul
 }
 .section-decision
 {
-    background: var(--Main-Gray);
+    background-image: url(./img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--Main-Gray);
     justify-content: center;
     align-items: center;
-    padding: 150px;
+    padding: 200px;
 }
 .effective-decision
 {
@@ -155,7 +159,6 @@ ul
 .advantages
 {
     display: flex;
-    align-items: center;
     justify-content: center;
     gap: 40px;
 }
