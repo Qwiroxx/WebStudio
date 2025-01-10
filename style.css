@@ -110,14 +110,6 @@ ul
 {
     display: flex; justify-content: center;
 }
-#horizontal-img
-{
-    display: flex; justify-content: space-evenly;
-}
-#horizontal-img>li
-{
-     margin-right: 25px; margin-top: 5px;
-}
 .section-decision
 {
     background-image: url(./img/background.png);
@@ -293,6 +285,7 @@ ul
     content: url(./img/antenna\ 1.svg);
     padding: 25px 100px;
     background-color: #F5F4FA;
+    border-radius: 4px;
 }
 .punctuality
 {
@@ -304,6 +297,7 @@ ul
     content: url(./img/clock\ 1.svg);
     padding: 25px 100px;
     background-color: #F5F4FA;
+    border-radius: 4px;
 }
 .planning
 {
@@ -314,6 +308,7 @@ ul
 {
     content: url(./img/diagram\ 1.svg);
     padding: 25px 100px;
+    border-radius: 4px;
     background-color: #F5F4FA;
 }
 .modern-technology
@@ -326,6 +321,8 @@ ul
     content: url(./img/astronaut\ 1.svg);
     padding: 25px 100px;
     background-color: #F5F4FA;
+    border-radius: 4px;
+
 }
 .container
 {
