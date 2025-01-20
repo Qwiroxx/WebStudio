@@ -108,11 +108,13 @@ ul
 }
 .main-portfolio-button
 {
-    display: flex; justify-content: center;
+    display: flex; 
+    justify-content: center;
+    gap: 5px;
 }
 .section-decision
 {
-    background-image: url(./img/background.png);
+    background-image: url(./img/background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -225,7 +227,6 @@ ul
     border: none; 
     padding: 10px 20px; 
     border-radius: 5px;
-    margin: 5px;
 }
 .portfolio-button:hover
 {
@@ -233,6 +234,7 @@ ul
     color: #FFFFFF;
     transition: 0.2s; 
     cursor: pointer;
+    box-shadow: lightgray 0 3px 4px;
 }
 .we-do
 {
