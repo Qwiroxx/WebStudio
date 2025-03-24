@@ -11,6 +11,7 @@ body
 {
     font-family: Roboto;
 }
+
 a
 {
     text-decoration: none;
@@ -93,6 +94,174 @@ ul
     color: var(--Light-Gray);
 }
 /* Body */
+@keyframes scale {
+    from {
+        transform: translateY(500px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+.back-drop
+{
+    display: none;
+}
+.visible
+{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #00000033;
+    align-items: center;
+    justify-content: center;
+}
+.modal
+{
+    padding-top: 10px;
+    width: 528px;
+    height: 581px;
+    top: 221px;
+    left: 536px;
+    border-radius: 4px;    
+    background-color: white;
+    color: black;
+    animation-name: scale;
+    animation-duration: 0.5s;
+    
+}
+.btn-close-position
+{
+    text-align: end;
+    padding-right: 10px;
+}
+.btn-close
+{
+    width: 30px;
+    height: 30px;
+    top: 229px;
+    left: 1026px;
+    border: solid 1px #0000001A;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    
+}
+.btn-close:hover
+{
+    color: var(--Main-Cyan);
+}
+.form-input
+{
+    width: 448px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px #21212133 solid;
+}
+.input-info
+{
+    width: 22px;
+    height: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 1%;
+    color: var(--Light-Gray);
+    margin-bottom: 4px;        
+}
+.name-input {
+    background-image: url(./img/human-vector.svg);
+    background-repeat: no-repeat;
+    background-position: 15px center;
+}
+.name-input:focus
+{
+    background-image: none;
+    border: var(--Main-Cyan);
+
+}
+.phone-input
+{
+    background-image: url(./img/phone.svg);
+    background-repeat: no-repeat;
+    background-position: 15px center;
+}
+.phone-input:focus
+{
+    background-image: none;
+    border: var(--Main-Cyan);
+}
+.mail-input
+{
+    background-image: url(./img/mail.svg);
+    background-repeat: no-repeat;
+    background-position: 15px center;
+}
+.mail-input:focus
+{
+    background-image: none;
+    border: var(--Main-Cyan);
+}
+.modal-span
+{
+    color: var(--Main-Cyan);
+    text-decoration: underline;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    text-decoration-style: solid;
+    
+}
+.modal-label
+{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    color: var(--Light-Gray);
+}
+.modal-btn
+{
+    width: 200px;
+    height: 50px;
+    top: 712px;
+    left: 700px;
+    border-radius: 4px;
+    background-color: var(--Main-Cyan);
+    color: white;
+    border: none;
+}
+.modal-form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-p
+{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    text-align: center;
+    color: var(--Nav-Gray);
+    margin: 0;
+}
+.modal-texarea
+{
+    width: 448px;
+    height: 120px;
+    top: 518px;
+    left: 576px;
+    border-radius: 4px;
+    border: #21212133 1px solid;
+}
 .list-we-do
 {
     display: flex;
@@ -114,11 +283,9 @@ ul
 }
 .section-decision
 {
-    background-image: url(./img/background.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./img/background.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-color: var(--Main-Gray);
     justify-content: center;
     align-items: center;
     padding: 200px;

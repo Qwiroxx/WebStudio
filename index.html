@@ -29,7 +29,37 @@
                 <section class="section-decision">
                     <div class="container decisions">      
                         <h1 class="effective-decision">Ефективні рішення для <br class="text-inverse your-bussines">вашого бізнесу</h1>
-                        <button class="order-button">Замовити послугу</button>
+                        <button class="btn-open order-button" data-modal-open>Замовити послугу</button>
+                        <div class="back-drop" data-modal>
+                            <div class="modal">
+                                <div class="btn-close-position">
+                                    <button class="btn-close" data-modal-close>X</button>
+                                </div>
+                                <p class="modal-p">Залиште свої дані, ми вам передзвонимо</p>
+                                <form class="modal-form">
+                                    <div>
+                                        <p class="input-info">Ім'я</p>
+                                        <input type="name" class="form-input name-input">
+                                    </div>
+                                    <div>
+                                        <p class="input-info">Телефон</p>
+                                        <input type="phone" class="form-input phone-input">
+                                    </div>
+                                    <div>
+                                        <p class="input-info">Пошта</p>
+                                        <input type="mail" class="form-input mail-input">
+                                    </div>
+                                    <div>
+                                        <p class="input-info">Коментар</p>
+                                        <textarea placeholder="Введіть текст" class="modal-texarea"></textarea>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="checkbox">
+                                        <label for="checkbox" class="modal-label">Погоджуюся з розсилкою та приймаю <span class="modal-span">Умови договору</span></label>
+                                    </div>
+                                    <button class="modal-btn">Відправити</button>
+                                </form>
+                            </div>
                     </div>
                         </section>
                         <section class="section-advantages">
@@ -111,5 +141,6 @@
                 </div>
             </footer>
         </div>
+        <script src="./modal.js"></script>
     </body>
     </html>
