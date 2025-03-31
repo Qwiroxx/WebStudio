@@ -32,8 +32,41 @@ ul
     justify-content: start;
     align-items: center;
     gap: 150px;
-    margin-right: 40px;
     padding: 10px;
+}
+.studio-main::after
+{
+    position: absolute;
+    display: flex;
+    width: 48px;
+    margin-top: 21px;
+    content: "";
+    border: 3px var(--Main-Cyan) solid;
+    border-radius: 2px;
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+}
+.studio-main:hover::after
+{
+    
+    opacity: 1;
+}
+.portfolio-main::after
+{
+    position: absolute;
+    display: flex;
+    width: 80px;
+    margin-top: 21px;
+    content: "";
+    border: 3px var(--Main-Cyan) solid;
+    border-radius: 2px;
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+}
+.portfolio-main:hover::after
+{
+    
+    opacity: 1;
 }
 .nav-list
 {
@@ -96,7 +129,7 @@ ul
 /* Body */
 @keyframes scale {
     from {
-        transform: translateY(500px);
+        transform: translateY(100%);
     }
     to {
         transform: translateY(0);
@@ -175,34 +208,26 @@ ul
     background-image: url(./img/human-vector.svg);
     background-repeat: no-repeat;
     background-position: 15px center;
+    padding-left: 40px;
 }
-.name-input:focus
-{
-    background-image: none;
-    border: var(--Main-Cyan);
 
-}
 .phone-input
 {
     background-image: url(./img/phone.svg);
     background-repeat: no-repeat;
     background-position: 15px center;
+    padding-left: 40px;
 }
 .phone-input:focus
 {
-    background-image: none;
-    border: var(--Main-Cyan);
+    fill: currentColor;
 }
 .mail-input
 {
     background-image: url(./img/mail.svg);
     background-repeat: no-repeat;
     background-position: 15px center;
-}
-.mail-input:focus
-{
-    background-image: none;
-    border: var(--Main-Cyan);
+    padding-left: 40px;
 }
 .modal-span
 {
