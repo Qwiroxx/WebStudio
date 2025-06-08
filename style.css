@@ -154,7 +154,6 @@ ul
     color: black;
     animation-name: scale;
     animation-duration: 0.5s;
-    
 }
 .btn-close-position
 {
@@ -411,13 +410,18 @@ ul
     transform: translatey(100%);
     transition: opacity ease-in-out 250ms, transform 250ms ease-in-out;
   }
+.for-overlay 
+{
+    position: relative;
+    overflow: hidden;
+}
 .ss 
 {
     width: 322px;
     height: 168px;
 }
 .project-li:hover .overlay {
-    transform: translatey(-23%);
+    transform: translatey(-19.5%);
     opacity: 0.9;
   }
 .project-info
