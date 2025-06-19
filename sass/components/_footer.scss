@@ -1,0 +1,97 @@
+@import "../utils/variables";
+.footer
+{
+    background-color: $Main-Gray;
+    padding-bottom: 30px;
+    padding-top: 35px;
+}
+.footer-info
+{
+    color: $Footer-Info; 
+    opacity: 60%;
+}
+#mail-footer
+{
+    color:white; 
+    opacity: 60%;
+}
+#mail-footer:hover
+{
+    color: $Main-Cyan; 
+    transition: 0.2s;
+}
+#adress
+{
+    text-decoration: none;
+}
+.webstudio-footer
+{
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: bold;
+}
+.text-inverse
+{
+    color: white;
+}
+.footer-social
+{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.facebook
+{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    margin-right: 8px;
+}
+.footer-socials
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-svg:hover
+{
+    background-color: $Main-Cyan;
+    transition: 0.2s;
+}
+.footer-svg
+{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    background-color: #FFFFFF1A;
+}
+.footer-join
+{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+    color: white;
+}
+.footer-social-item
+{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 5px;
+}
+.footer-section
+{
+    display: flex;
+    gap: 70px;
+}

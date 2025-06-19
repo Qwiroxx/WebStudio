@@ -1,0 +1,22 @@
+@import "../utils/variables";
+.main-portfolio-button
+{
+    display: flex; 
+    justify-content: center;
+    gap: 5px;
+}
+.portfolio-button
+{
+    background-color: $Portfolio-button; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+}
+.portfolio-button:hover
+{
+    background-color: $Main-Cyan; 
+    color: #FFFFFF;
+    transition: 0.2s; 
+    cursor: pointer;
+    box-shadow: lightgray 0 3px 4px;
+}

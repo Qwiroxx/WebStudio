@@ -1,0 +1,32 @@
+@import "./components/_header.scss";
+@import "./components/section.decision";
+@import "./components/advantages";
+@import "./components/what-we-do";
+@import "./components/our-team";
+@import "./components/footer";
+@import "./components/portfolio-buttons";
+@import "./components/project-list";
+@import "./components/regular-clients";
+body
+{
+    font-family: Roboto;
+}
+a
+{
+    text-decoration: none;
+}
+ul
+{
+    list-style: none;
+     padding: 0;
+}  
+.home-img
+{
+    margin: 11px;
+}
+.container
+{
+    max-width: 1205px;
+    padding: 0 15px;
+    margin: 0 auto;
+}

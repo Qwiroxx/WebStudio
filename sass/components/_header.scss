@@ -1,0 +1,113 @@
+@import "../utils/variables";
+.header
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 150px;
+    padding: 10px;
+}
+.studio-main::after
+{
+    position: absolute;
+    display: flex;
+    width: 48px;
+    margin-top: 21px;
+    content: "";
+    border: 3px $Main-Cyan solid;
+    border-radius: 2px;
+    
+}
+.sun:hover
+{
+    transform: rotate(360deg);
+}
+.portfolio-main::after
+{
+    position: absolute;
+    display: flex;
+    width: 75px;
+    margin-top: 21px;
+    content: "";
+    border: 3px $Main-Cyan solid;
+    border-radius: 2px;
+}
+.nav-list
+{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.header-info
+{
+    display: flex; 
+    font-family: Roboto;
+    gap: 25px;
+    align-items: center;
+}
+.webstudio
+{
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: bold;
+}
+.header-info li
+{
+    margin-left: 25px;
+}
+.web 
+{
+    color: $Main-Cyan; 
+    text-decoration: none; 
+}
+.studio
+{
+    color: $Studio-Black; 
+    font-size: 25px;
+} 
+.header-info-item
+{
+    color: $Light-Gray;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.info-item 
+{
+    width: 16px;
+    height: 12px;
+}
+.info-item-modified
+{
+    width: 11px;
+    height: 16px;
+}
+.header-info-item:hover
+{
+    color: $Main-Cyan; 
+    transition: 0.2s;
+}
+.nav
+{
+    color: $Nav-Gray;
+    margin-left: 50px;
+    color:$Nav-Gray; 
+    transition: 0.2s;  
+    margin-left: 0;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+
+}
+
+.nav:hover
+{
+    color: $Main-Cyan;
+}

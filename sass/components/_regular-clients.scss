@@ -1,0 +1,72 @@
+
+.regular-client-item
+{   
+    color: #AFB1B8;
+    width: 160px;
+    height: 80px;
+    top: 2490px;
+    left: 215px;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.regular-client-item:hover
+{
+    border-color: $Main-Cyan;
+    color: $Main-Cyan;
+    transition: 0.3s;
+}
+.clients
+{
+    width: 41px;
+    height: 47px;
+}
+.clients-modified-company
+{
+    width: 45px;
+    height: 42px;
+}
+.clients-modified-brand
+{
+    width: 63px;
+    height: 47px;
+    fill: currentColor;
+}
+.clients-modified-foster
+{
+    width: 65px;
+    height: 42px;
+}
+.clients-modified-company-tag
+{
+    width: 94px;
+    height: 45px;
+}
+.regular-client-list
+{
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+}
+.regular-clients 
+{
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    text-align: center;
+    color: $Nav-Gray;
+    margin-bottom: 50px;
+}
+.regular-client
+{
+    height: 372px;
+    align-items: center;
+    display: flex;
+    padding-bottom: 50px;
+}

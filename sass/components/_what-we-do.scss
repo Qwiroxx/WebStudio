@@ -1,0 +1,17 @@
+.list-we-do
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+.we-do
+{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    text-align: center;
+    color: $Nav-Gray;
+}

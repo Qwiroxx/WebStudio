@@ -1,0 +1,74 @@
+@import "../utils/variables";
+.advantages
+{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.advantages-name
+{
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: $Nav-Gray;
+}
+.advantages-item
+{
+    font-family: Roboto;
+    font-size: 14px;
+    color: $Light-Gray;
+}
+.section-advantages
+{
+    padding: 100px;
+}
+.attention-parent
+{
+    display: flex;
+    align-items: center;
+}
+.attention-parent::before 
+{
+    content: url(../img/antenna\ 1.svg);
+    padding: 25px 100px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+.punctuality
+{
+    display: flex;
+    align-items: center;
+}
+.punctuality::before
+{
+    content: url(../img/clock\ 1.svg);
+    padding: 25px 100px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+.planning
+{
+    display: flex;
+    align-items: center;
+}
+.planning::before
+{
+    content: url(../img/diagram\ 1.svg);
+    padding: 25px 100px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+}
+.modern-technology
+{
+    display: flex;
+    align-items: center;
+}
+.modern-technology::before
+{
+    content: url(../img/astronaut\ 1.svg);
+    padding: 25px 100px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+
+}
